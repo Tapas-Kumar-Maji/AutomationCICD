@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-05T20:48:55 IST" name="Suite" finished-at="2024-08-05T20:49:28 IST" duration-ms="32449">
+    <groups>
+      <group name="Purchase">
+        <method signature="GroceriesApp.orderPlaced(java.util.HashMap)[pri:0, instance:rahulshettyacademy.groceries.app.GroceriesApp@55cb6996]" name="orderPlaced" class="rahulshettyacademy.groceries.app.GroceriesApp"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-08-05T20:48:55 IST" name="Groceries App Test" finished-at="2024-08-05T20:49:28 IST" duration-ms="32449">
+      <class name="rahulshettyacademy.groceries.app.ErrorValidations">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:rahulshettyacademy.groceries.app.ErrorValidations@1807e3f6]" started-at="2024-08-05T20:48:55 IST" name="beforeMethod" finished-at="2024-08-05T20:49:03 IST" duration-ms="7447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:rahulshettyacademy.groceries.app.ErrorValidations@1807e3f6]" started-at="2024-08-05T20:49:03 IST" name="loginErrorValidation" finished-at="2024-08-05T20:49:03 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:rahulshettyacademy.groceries.app.ErrorValidations@1807e3f6]" started-at="2024-08-05T20:49:03 IST" name="afterMethod" finished-at="2024-08-05T20:49:03 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:rahulshettyacademy.groceries.app.ErrorValidations@1807e3f6]" started-at="2024-08-05T20:49:03 IST" name="beforeMethod" finished-at="2024-08-05T20:49:06 IST" duration-ms="2921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="productAddedToCartValidation()[pri:0, instance:rahulshettyacademy.groceries.app.ErrorValidations@1807e3f6]" started-at="2024-08-05T20:49:06 IST" name="productAddedToCartValidation" finished-at="2024-08-05T20:49:09 IST" duration-ms="2284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productAddedToCartValidation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:rahulshettyacademy.groceries.app.ErrorValidations@1807e3f6]" started-at="2024-08-05T20:49:09 IST" name="afterMethod" finished-at="2024-08-05T20:49:09 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- rahulshettyacademy.groceries.app.ErrorValidations -->
+      <class name="rahulshettyacademy.groceries.app.ExtentReportDemo">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:rahulshettyacademy.groceries.app.ExtentReportDemo@45d84a20]" started-at="2024-08-05T20:48:55 IST" name="beforeMethod" finished-at="2024-08-05T20:49:02 IST" duration-ms="6275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="initialDemo()[pri:0, instance:rahulshettyacademy.groceries.app.ExtentReportDemo@45d84a20]" started-at="2024-08-05T20:49:02 IST" name="initialDemo" finished-at="2024-08-05T20:49:02 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDemo -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:rahulshettyacademy.groceries.app.ExtentReportDemo@45d84a20]" started-at="2024-08-05T20:49:02 IST" name="afterMethod" finished-at="2024-08-05T20:49:02 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- rahulshettyacademy.groceries.app.ExtentReportDemo -->
+      <class name="rahulshettyacademy.groceries.app.GroceriesApp">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:rahulshettyacademy.groceries.app.GroceriesApp@55cb6996]" started-at="2024-08-05T20:48:56 IST" name="beforeMethod" finished-at="2024-08-05T20:49:02 IST" duration-ms="6206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="orderPlaced(java.util.HashMap)[pri:0, instance:rahulshettyacademy.groceries.app.GroceriesApp@55cb6996]" started-at="2024-08-05T20:49:02 IST" name="orderPlaced" data-provider="getData" finished-at="2024-08-05T20:49:06 IST" duration-ms="4292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderPlaced -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:rahulshettyacademy.groceries.app.GroceriesApp@55cb6996]" started-at="2024-08-05T20:49:06 IST" name="afterMethod" finished-at="2024-08-05T20:49:06 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:rahulshettyacademy.groceries.app.GroceriesApp@55cb6996]" started-at="2024-08-05T20:49:06 IST" name="beforeMethod" finished-at="2024-08-05T20:49:10 IST" duration-ms="3536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="orderPlaced(java.util.HashMap)[pri:0, instance:rahulshettyacademy.groceries.app.GroceriesApp@55cb6996]" started-at="2024-08-05T20:49:10 IST" name="orderPlaced" data-provider="getData" finished-at="2024-08-05T20:49:15 IST" duration-ms="5200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderPlaced -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:rahulshettyacademy.groceries.app.GroceriesApp@55cb6996]" started-at="2024-08-05T20:49:15 IST" name="afterMethod" finished-at="2024-08-05T20:49:15 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:rahulshettyacademy.groceries.app.GroceriesApp@55cb6996]" started-at="2024-08-05T20:49:15 IST" name="beforeMethod" finished-at="2024-08-05T20:49:23 IST" duration-ms="8034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isProductOrdered(java.util.HashMap)[pri:0, instance:rahulshettyacademy.groceries.app.GroceriesApp@55cb6996]" started-at="2024-08-05T20:49:23 IST" name="isProductOrdered" data-provider="getData" finished-at="2024-08-05T20:49:24 IST" depends-on-methods="rahulshettyacademy.groceries.app.GroceriesApp.orderPlaced" duration-ms="637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isProductOrdered -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:rahulshettyacademy.groceries.app.GroceriesApp@55cb6996]" started-at="2024-08-05T20:49:24 IST" name="afterMethod" finished-at="2024-08-05T20:49:24 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:rahulshettyacademy.groceries.app.GroceriesApp@55cb6996]" started-at="2024-08-05T20:49:24 IST" name="beforeMethod" finished-at="2024-08-05T20:49:26 IST" duration-ms="1571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="isProductOrdered(java.util.HashMap)[pri:0, instance:rahulshettyacademy.groceries.app.GroceriesApp@55cb6996]" started-at="2024-08-05T20:49:26 IST" name="isProductOrdered" data-provider="getData" finished-at="2024-08-05T20:49:28 IST" depends-on-methods="rahulshettyacademy.groceries.app.GroceriesApp.orderPlaced" duration-ms="2140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isProductOrdered -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:rahulshettyacademy.groceries.app.GroceriesApp@55cb6996]" started-at="2024-08-05T20:49:28 IST" name="afterMethod" finished-at="2024-08-05T20:49:28 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- rahulshettyacademy.groceries.app.GroceriesApp -->
+    </test> <!-- Groceries App Test -->
+  </suite> <!-- Suite -->
+</testng-results>
